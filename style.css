@@ -6,17 +6,22 @@
  
   
 }
-.gmail{
+.gmail {
   padding-right: 3px;
   color: black;
   text-decoration: none;
+  
+}
+.gmail:hover{
+  text-decoration: underline;
 }
 .img {
   padding:  5px;
   color: black;
   text-decoration: none;
-  
-  
+}
+.img:hover {
+    text-decoration: underline;
 }
 .button{
   padding: 10px 25px;
@@ -26,10 +31,13 @@ color: aliceblue;
 border-radius: 5px;
 width: 700;
 }
+.button:hover{
+  background-color: #23579b;
+}
 .img-google{
   display: flex;
   justify-content: center;
-  image-rendering: auto;
+  padding-top: 20px;
   
 }
 .input{
@@ -38,40 +46,47 @@ width: 700;
     width: 30%;
     height: 30px;
     border-radius: 33px;
-    color: rgb(255, 255, 255);
     border-color: none;
+    padding: 0px 20px;
+    border: 1px solid gray;
+    outline: none;
+    
   }
   .input-b{
     display: flex;
     justify-content: center;
+    color: red;
+    
   }
 .button-u{
   display: flex;
   justify-content: center;
-  border-radius: 10px;
-  padding: 15px 25px;
+  gap: 60px;
+  margin-top: 20px;
  
 }
 .gs{
-  padding-right: 40px;
-  padding-top: 10px;
-  height: 20px;
+  padding: 8px 12px;
     
 }
 .fl{
-  padding-top: 10px;
-  padding-left: 40px;
+  padding: 8px 12px;
 
 }
 .goie{
 display: flex;
 justify-content: center;
-padding-top: 10px;
+padding-top: 25px;
 font-size: 15px;
 }
 .bd{
-  padding: 15px 30px;
+  padding: 50px 50px;
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
   color: #70757a;
+}
+.img{
+  width: 350px;
+  height: 150px;
+  padding: top 20px;
 }
