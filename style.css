@@ -1,0 +1,77 @@
+.header{
+  display: flex;
+  justify-content: right;
+ padding: left 7px;
+ padding-top: 10px;
+ 
+  
+}
+.gmail{
+  padding-right: 3px;
+  color: black;
+  text-decoration: none;
+}
+.img {
+  padding:  5px;
+  color: black;
+  text-decoration: none;
+  
+  
+}
+.button{
+  padding: 10px 25px;
+  background-color: #1a73e8;
+  border: none;
+color: aliceblue;
+border-radius: 5px;
+width: 700;
+}
+.img-google{
+  display: flex;
+  justify-content: center;
+  image-rendering: auto;
+  
+}
+.input{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 30px;
+    border-radius: 33px;
+    color: rgb(255, 255, 255);
+    border-color: none;
+  }
+  .input-b{
+    display: flex;
+    justify-content: center;
+  }
+.button-u{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 15px 25px;
+ 
+}
+.gs{
+  padding-right: 40px;
+  padding-top: 10px;
+  height: 20px;
+    
+}
+.fl{
+  padding-top: 10px;
+  padding-left: 40px;
+
+}
+.goie{
+display: flex;
+justify-content: center;
+padding-top: 10px;
+font-size: 15px;
+}
+.bd{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+}
